@@ -186,7 +186,7 @@ input#btnverlistas:hover {
 
 input#pedido {
     margin-top: -44px;
-    margin-left: 15px;
+    margin-left: 0px;
     background: whitesmoke;
     border-radius: 5px;
     padding: 5px;
