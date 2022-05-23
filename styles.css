@@ -201,15 +201,15 @@ input#pedido:hover {
 }
 
 input#voltarpagina1 {
-    margin-top: -45px;
+    margin-top: 5px;
     background: whitesmoke;
     border-radius: 5px;
     padding: 5px;
     font: normal 20pt 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-color: rgb(139, 0, 0);
     display: block;
-    margin-left: auto;
-    margin-right: 0px;
+    margin-left: 0px;
+    margin-right: auto;
 }
 input#voltarpagina1:hover {
     transition: 0.2s;
