@@ -13,15 +13,26 @@
         <div id="formsubmitcontato">
             <form class="formpedido" action="https://formsubmit.co/92770dfa1bc4cc1b3ff008972f85d4ef" method="POST">
                 <label for="name">Nome Completo</label>
-                <input type="text" name="nome" id="name" required placeholder="Digite seu nome completo">
+                    <input type="text" name="nome" id="name" required placeholder="Digite seu nome completo">
                 <label for="textnumero">Número de contato</label>
-                <input type="text" name="numero-celular" id="textnumero" required placeholder="Digite seu número de celular">
+                    <input type="text" name="numero-celular" id="textnumero" required placeholder="Digite seu número de celular">
                 <label for="textendereço">Endereço</label>
-                <input type="text" name="endereço" id="textendereço" required placeholder="Digite seu endereço completo">
-                <label for="textpag">Forma de Pagamento</label>
-                <input type="text" name="pagamento" id="textpag" required placeholder="Digite a forma de pagamento">
-                <label for="valor">Rancho</label>
-                <input type="text" name="rancho" id="valor" required placeholder="Digite o rancho de sua escolha. Exemplo: 314 (para o rancho de R$314,99)">
+                    <input type="text" name="endereço" id="textendereço" required placeholder="Digite seu endereço completo">
+                <label for="textpag">Forma de Pagamento</label><br>
+                <select name="pagamento" id="textpag">
+                    <option value="dinheiro">Dinheiro 💲</option>
+                    <option value="cartao">Cartão 💳</option>
+                    <option value="pix-tratar-cliente">Pix ✅</option>
+                </select><br><br>
+                <label for="rancho">Rancho</label><br>
+                <select name="valor" id="rancho">
+                    <option value="rancho-139">Rancho 🛒139,99</option>
+                    <option value="rancho-234">Rancho 🛒234,99</option>
+                    <option value="rancho-264">Rancho 🛒264,99</option>
+                    <option value="rancho-314">Rancho 🛒314,99</option>
+                </select><br><br>
+                <label for="obs">Observações (Para não enviar observações digite: nao)</label><br><br>
+                    <textarea type="text" name="obs" id="obs" required placeholder="Digite sua(s) observação(ões)"></textarea><br><br>
                 <input type="hidden" name="_next" value="http://vazsdev.github.io/superrancho/thanks-pedido.html">
                 <input type="hidden" name="_captcha" value="false">
                 <button type="submit" id="btnenviarmsg">Enviar Pedido</button>
@@ -31,7 +42,7 @@
         <div>
             <div id="divlistas"><script src="main.js"></script></div>
             <a href="https://wa.me/c/555384072763" onclick="target='_blank'">
-                <img id="watsimg" src="imagens/whatsapp.png" alt="whatsapp_btn.png"><p id="watsnr">(53) 98407-2763  PEÇA PELO WHATSAPP</p></a>
+                <img id="watsimg" src="imagens/whatsapp.png" alt="whatsapp_btn.png"><p id="watsnr">(53) 98407-2763 PEÇA PELO WHATSAPP</p></a>
         </div>
     </div>
 </body>
