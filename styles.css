@@ -235,3 +235,19 @@ input#voltarpagina2:hover {
     box-shadow: rgba(255, 0, 0, 0.486) 2px 2px;
     cursor: pointer;
 }
+
+select#rancho {
+    width: 250px;
+    height: 50px;
+    font: italic 20pt 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+select#textpag {
+    width: 250px;
+    height: 50px;
+    font: italic 20pt 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+textarea#obs {
+    width: 500px;
+    height: 100px;
+}
